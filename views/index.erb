@@ -1,5 +1,5 @@
 <% if @items.empty? %>
-  <h2> No items in that bucket...yet! </h2>
+  <h2 class="color"> No items in that bucket...yet! </h2>
 <% else %>
   <% @items.each do |item| %>
     <li><%= item.title %></li>
